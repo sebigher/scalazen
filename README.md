@@ -1,0 +1,2 @@
+# scalazen
+meditate in Scala  
