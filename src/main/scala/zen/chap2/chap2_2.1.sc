@@ -7,7 +7,7 @@ val x = 10
 val y: Int = if (x > 0) 1 else -1
 
 // the same effect as
-var z:Int = 0
+var z: Int = 0
 if (x > 0) z = 1 else z = -1
 z
 
