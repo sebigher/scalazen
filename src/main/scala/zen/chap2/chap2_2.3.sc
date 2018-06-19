@@ -9,8 +9,8 @@ val x = {
 x
 
 // even if we are writing like on one line
-//many expressions, still the last will give
-// the return value
+//many expressions, still the last expression will give
+// the return value: in this case sqrt
 
 val y = {
   val dx = 4 - 2;val dy = 8 + 9;sqrt(dx + dy)
