@@ -13,9 +13,7 @@ x
 // the return value
 
 val y = {
-  val dx = 4 - 2;
-  val dy = 8 + 9;
-  sqrt(dx + dy)
+  val dx = 4 - 2;val dy = 8 + 9;sqrt(dx + dy)
 }
 y
 
