@@ -31,4 +31,18 @@ z // Unit's ()
 val t: Unit = 1
 t
 
+//don't chain assignments as in Java
 
+var x1 = 1; var x2 = 2;var x3 = 1
+
+//NO: we will be passing Unit value to a variable of
+// type Int
+// x1 = x2 = x3
+x1
+(x2 = x3) // Unit's ()
+
+x2 = x3 //1
+
+//this is in constract with Java
+//whereas the value of an assignment is the
+//value that is assigned
