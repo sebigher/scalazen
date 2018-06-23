@@ -36,6 +36,7 @@
 
 // OK: we throw an exceotion, now what?
 
+import java.io.InputStream
 import java.net.{MalformedURLException, URL}
 
 import scala.math.sqrt
@@ -60,6 +61,10 @@ val res = if(x >= 0){
 
 def process(url : URL) = {
   // can throw exception
+}
+
+def process(url :InputStream): Unit = {
+  //can throw
 }
 
 import java.io.IOException
@@ -92,3 +97,6 @@ val in = new URL("http://horstmann.com/fred.gif").openStream()
 
 // finally is executed no matter what: whether
 // or not the process function throws an exception
+
+//Scala does not have an analog to the Java try-with-resources statement.
+
