@@ -15,4 +15,5 @@ object DoNothingAction  extends UndoableAction("Do nothing"){
 
 
 //share the DoNothingAction object
-val actions = Map("open" -> DoNothingAction)
+val actions = Map("open" -> DoNothingAction,
+  "save" -> DoNothingAction)
