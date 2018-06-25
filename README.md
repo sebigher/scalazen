@@ -54,7 +54,8 @@ Implicit definitions
 Higher-kinded types
 
 
-The skill sets required from application programmers and library designers are really quite different. 
+The skill sets required 
+from application programmers and library designers are really quite different. 
 But if I should throw them into the same baskets...
 
 *A1, A2/L1, A3/L2, L3*
