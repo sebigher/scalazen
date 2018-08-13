@@ -1,6 +1,6 @@
 //Char, Short, Int, Long, Float, and Double, and a Boolean type.
 
-// there is no distinction between primitive types and classes
+// there is NO distinction between primitive types and classes
 
 1.toString
 
@@ -12,14 +12,14 @@
 
 
 // there is no need for wrapper classes
-//only augment classes
-//java ==== scala
+//only AUGMENT classe
+//java --> Scala
 // Int --> RichInt
 // ...
 //String -> StringOps
 
 // in  Scala you use methods to converts
-//between numeric types and not casts
+//between numeric types and NOT CAST
 
 99.44.toString
 

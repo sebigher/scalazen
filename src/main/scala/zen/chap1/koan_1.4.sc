@@ -7,9 +7,9 @@
 // a method b
 // a.method(b)
 
-// Scala doeens't have ++ , -- operator
+// Scala DOESN"T HAVE ++ , -- operator
 
-//instead
+//instead use +=,-=
 
 var x = 4
 x += 1

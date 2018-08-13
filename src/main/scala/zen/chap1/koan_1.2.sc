@@ -12,3 +12,4 @@ x = 3
 // the type is inferred from the type
 // of the expression used when initialize
 
+
