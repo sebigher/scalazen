@@ -12,3 +12,17 @@ x = 3
 // the type is inferred from the type
 // of the expression used when initialize
 
+//you cannot declare a variable without initializing it
+//only traits and abstract classes can have declared but undefined members
+//var yyy: Int
+
+//Strings
+var yyy = "3" + 5
+yyy = 5 + "3"
+
+
+
+
+
+
+

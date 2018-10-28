@@ -25,7 +25,7 @@ println(x)
 // 1)use of the singleton objects
 
 
-// 2)a package can have a pachage object
+// 2)a package can have a pacKage object
 // you can import the package and use the methods of the
 //package object without any prefix
 
@@ -36,7 +36,7 @@ sqrt(9)
 pow(2, 3)
 
 
-// if a package starts with scala you can omit the scala prefix
+// more: if a package starts with scala you can omit the scala prefix
 
 
 

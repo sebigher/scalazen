@@ -1,7 +1,6 @@
 // the apply method
 
-//the use of a syntax like a function call
-//is  common
+//the use of a syntax like a function call is  common
 
 val s = "Hello"
 s(0)
@@ -17,6 +16,6 @@ s(0)
 
 // why not []?
 
-// () notation conflicts  with another feature
+// () notation conflicts  with another feature:
 // implicit parameters
 

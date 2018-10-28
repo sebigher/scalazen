@@ -17,8 +17,8 @@ val y = {
 }
 y
 
-// in Scala assignments have no value,
-// that is a value (the only value) Unit type
+// in Scala assignments have no useful value,
+// that is the value () of Unit type
 
 val z = {
   val dx = 4 - 2;
@@ -35,10 +35,9 @@ var x1 = 1; var x2 = 2;var x3 = 1
 
 // x1 = x2 = x3
 //don't chain assignments as in Java
-
-
-//NO: we will be passing Unit value to a variable of
-// type Int
+//WHY NO:
+// because we will be passing Unit value
+// to a variable of type Int
 x1
 (x2 = x3) // Unit's ()
 
@@ -46,4 +45,4 @@ x2 = x3 //1
 
 //this is in contrast with Java
 //whereas the value of an assignment is the
-//value that is assigned
+//value that is assigned !!!

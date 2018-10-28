@@ -17,13 +17,13 @@ z
 // for the second form you need var
 
 //every expression has a type
-
 val m: Any = if (false) "not good" else 1
 
 //type Any as it is not that obvious
 val n: Any = if (true) "go"
 
-//if/statement can yield no value
+//  if/statement can yield no value
+//when has no else for example:
 val t: AnyVal = if(false) 1
 t
 
@@ -31,12 +31,12 @@ t
 //every expression has a value
 
 //class Unit solves that:
-//class Unit has only one value ()
+//class Unit has only one value: ()
 
 /// Unit is analog with Java void
 
 // but void has no value
-// whareas Unit has only one value
+// whereas Unit has only one value
 // which is ()
 //designated to signal : no useful value
 

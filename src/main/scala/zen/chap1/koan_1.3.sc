@@ -18,8 +18,8 @@
 // ...
 //String -> StringOps
 
-// in  Scala you use methods to converts
-//between numeric types and not casts
+// in  Scala you use methods to convert between numeric types
+// and not cast as in Java
 
 99.44.toString
 
