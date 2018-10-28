@@ -6,8 +6,7 @@ val s = "Hello"
 s(0)
 
 //this is an overload form of () operator
-// it is implemented as a method with the name
-//apply
+// it is implemented as a method with the name apply
 
 //StringOps
 //def apply(n: Int):Char

@@ -1,11 +1,12 @@
 //declaring values and variables
-
+//variable type is inferred
 val answer = 8 - 2
 answer + 1
 
-// a value declared by val is a constant
+// a value declared by val is a constant (IMMUTABLE)
 
-//variables: the content can vary
+//variables: the content can vary (MUTABLE)
+//can specify type after the name using :
 var x: Int = 4
 x = 3
 
@@ -20,7 +21,13 @@ x = 3
 var yyy = "3" + 5
 yyy = 5 + "3"
 
+//it is strongly typed: cannot change the type
+// after initialization
 
+var z  = 1
+//after that CANNOT:  z ="aaa"
+// expression of tppe String is not conform with
+//the expected type Int
 
 
 
